@@ -1,0 +1,104 @@
+.signin{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+     > main{
+         width: 100%;
+         height: 85%;
+         max-width: 400px;
+         padding: 1rem;
+         border: 1px solid rgba(0,0,0,.28);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: stretch;
+
+         
+ 
+        >form{
+            .gen-slec{
+                margin-top: 1.5rem;
+                 >label{
+                     margin: 3px;
+                 }
+             }
+     
+             >h1{
+                 margin: .7rem 0;
+                 text-align: center;
+                 color: rgba(0, 0, 0, 0.666);
+                 font-weight: 300;
+                 text-transform: uppercase;
+                 letter-spacing: 2px;
+             }
+     
+             >div{
+                 width: 100%;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: flex-start;
+                 align-items: stretch;
+                 gap: 1.5rem;
+     
+                 >input,
+                 >select{
+                     border: 1px solid rgba(0,0,0,.28);
+                     border-radius: 5px;
+                     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                     width: 100%;
+                     padding: 10px;
+                     background-color: inherit;
+                     outline: none;
+                     font-size: 1.05rem;
+                     color: rgba(36, 36, 36, 0.695);
+         
+                 }
+     
+                 >input{
+                     width: auto;
+                 }
+     
+     
+                 >p{
+                     text-align: center;
+                 }
+     
+                 button{
+                     width: 70%;
+                     margin: auto;
+                     margin-top: 2rem;
+                     height: 3rem;
+                     cursor: pointer;
+                     border: none;
+                     outline: none;
+                     padding: unset;
+                     background-color: rgba(62, 125, 242);
+                     color: white;
+                     border: 1px solid rgba(62, 125, 242);
+                     display: flex;
+                     border-radius: 5px;
+                     font-size: 1.05rem;
+     
+                     >svg{
+                         background-color: white;
+                         width: 30%;
+                         height: 100%;
+                     }
+     
+                     >span{
+                         width: 100%;
+                         height: 3rem;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         font-size: 1.5rem;
+                         letter-spacing: 2px;
+                     }
+                 }
+             }
+        }
+     }
+ }
